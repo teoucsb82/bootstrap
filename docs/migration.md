@@ -129,7 +129,8 @@ New to Bootstrap 4 is the Reboot, a new stylesheet that builds on Normalize with
 ### Labels and badges
 
 - Renamed `.label` to `.tag` to disambiguate from the `<label>` element.
-- Dropped the badge component. Use the `.tag-pill` modifier together with the label component instead.
+- Dropped the badge component. Use the `.tag-pill` modifier together with the label component instead. 
+- `.tag-pill`s are not automatically pulled right inside `.list-group`s. Add `.pull-xs-right` to replicate the old badge behavior.
 
 ### Panels, thumbnails, and wells
 
